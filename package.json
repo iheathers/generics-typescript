@@ -1,0 +1,16 @@
+{
+  "name": "generics-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generics.js",
+  "scripts": {
+    "start:build": "tsc -w generics.ts",
+    "start:run": "nodemon generics.js",
+    "start": "npm run start:build & npm run start:run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
